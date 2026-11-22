@@ -24,7 +24,7 @@
             //connect to XAMPP database
             $connection = mysqli_connect("localhost", "root", "", "student_directory", 3307);
 
-            if (!connection) {
+            if (!$connection) {
                 echo "<p class='message'>Database connection failed.</p>";
             } else {
                 // Search for student by last name
