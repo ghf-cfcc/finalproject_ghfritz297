@@ -22,7 +22,7 @@
             echo "<p class='message'>Please enter a last name.</p>";
         } else {
             //connect to XAMPP database
-            $connection = mysqli_connect("localhost:3307", "root", "", "student_directory");
+            $connection = mysqli_connect("localhost", "root", "", "student_directory", 3307);
 
             if (!connection) {
                 echo "<p class='message'>Database connection failed.</p>";
