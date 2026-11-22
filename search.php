@@ -43,7 +43,7 @@
                         //Display each matching student using a while loop
                         while (mysqli_stmt_fetch($statement)) {
                             $rows .= "<tr>";
-                            $rows .= "<td>" .htmlspecialchars($id, ENT_QUOTES, "UTF-8)") . "</td>";
+                            $rows .= "<td>" .htmlspecialchars($id, ENT_QUOTES, "UTF-8") . "</td>";
                             $rows .= "<td>" .htmlspecialchars($firstName, ENT_QUOTES, "UTF-8") . "</td>";
                             $rows .= "<td>" .htmlspecialchars($studentLastName, ENT_QUOTES, "UTF-8") . "</td>";
                             $rows .= "<td>" .htmlspecialchars($email, ENT_QUOTES, "UTF-8") . "</td>";
