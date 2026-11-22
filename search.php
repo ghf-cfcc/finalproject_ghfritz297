@@ -53,7 +53,7 @@
                             echo "<p class='message'>No students found.</p>";
                         } else {
                             echo "<table>";
-                            echo "<tr><th>ID</th><th>First Name</th>th>Last Name</th><th>Email</th><tr>";
+                            echo "<tr><th>ID</th><th>First Name</th><th>Last Name</th><th>Email</th><tr>";
                             echo $rows;
                         }    echo "<table>";
                     } else {
