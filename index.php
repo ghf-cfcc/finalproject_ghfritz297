@@ -16,15 +16,15 @@
 
     <section id="ImageGallery">
         <figure>
-            <img src="media/image1.png" alt-"First student directory gallery image">
+            <img src="media/image1.jpg" alt-"First student directory gallery image">
             <figcaption>First gallery image</figcaption>
         </figure>
         <figure>
-            <img src="media/image2.png" alt-"Second student directory gallery image">
+            <img src="media/image2.jpg" alt-"Second student directory gallery image">
             <figcaption>Second gallery image</figcaption>
         </figure>
         <figure>
-            <img src="media/image3.png" alt-"Third student directory gallery image">
+            <img src="media/image3.jpg" alt-"Third student directory gallery image">
             <figcaption>Third gallery image</figcaption>
         </figure>
     </section>
