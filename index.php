@@ -1,9 +1,14 @@
+<?php
+// Gavin Fritz
+// 21 November 2026
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width+device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Full Stack Development Final Project.php</title>
     <link rel="stylesheet" href="styles/main.css">
     <script src="scripts/main.js" defer></script>
